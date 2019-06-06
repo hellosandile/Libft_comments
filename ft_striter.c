@@ -1,0 +1,3 @@
+/* This function is made to apply the parameter function f to each character in
+a string passed as the parameter s. Each character is passed by the address to the
+function f so that it can be modified if necessary.*/
