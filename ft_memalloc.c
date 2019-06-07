@@ -19,10 +19,12 @@ void	*ft_memalloc(size_t size)
 	given in the parameter. If the allocation fails we return NULL. Otherwise we
 	then run the function ft_bzero on our allocated zone of memory m and give it
 	our size parameter. We then return our void variable m. */
-	m = malloc(size)l
+	m = malloc(size);
 	if (m == NULL)
+	{
 		return (NULL);
-	ft_bezero(m, size);
+	}
+	ft_bzero(m, size);
 	return (m);
 
 }
