@@ -25,7 +25,7 @@
 sign is placed in front of it our function is not able to handle it. So we check if
 a negative version has been given and if so we just immediately return in. */
 	if (n == -2147483648)
-		ft_putchar("-2147483648");
+		ft_putstr("-2147483648");
 /* If -2147483648 has not been given we then check to see if another negative number
 has been given. If the number is negative we immediately use ft_putchar('-') to display
 the minus sign to the standard output. We then call ft_putnbr again on a negative version
