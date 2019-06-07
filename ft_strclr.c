@@ -17,6 +17,12 @@ void	ft_strclr(char *s)
 	it moves to the next character that should exist. Thus continuing the loop until the end*/
 
 	i = 0;
+	
+	/* Here we are protecting the function by stopping the function if the input is NULL*/
+	if (s == NULL)
+	{
+		return ;
+	}
 	while (s[i] != '\0')
 	{
 		s[i] = '\0';
