@@ -6,7 +6,7 @@ If ptr is NULL, no operation is performed
 This function (ft_memdel) takes in the parameter of the address of a pointer. The zone
 pointed to should be liberated with free. THe pointer is then set to NULL. */
 
-void	(ft_memdel(void **ap)
+void	ft_memdel(void **ap)
 {
 	free(*ap);
 	*ap = NULL;
