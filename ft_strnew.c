@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strnew.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: samkhize <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/06/10 09:17:27 by samkhize          #+#    #+#             */
+/*   Updated: 2019/06/10 09:22:24 by samkhize         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 /* This function allocates memory and returns a 'fresh' string that ends with
 '\0'. Each character in the string is set to '\0' if the allocation fails the
 function returns NULL. To do this we simply use our ft_memalloc function with
@@ -22,3 +34,4 @@ char	*ft_strnew(size_t size)
 	ft_memset(s, '\0', size + 1);
 	return (s);
 }
+
