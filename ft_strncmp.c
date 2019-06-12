@@ -6,13 +6,11 @@
 /*   By: samkhize <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 09:56:47 by samkhize          #+#    #+#             */
-/*   Updated: 2019/05/30 10:38:59 by samkhize         ###   ########.fr       */
+/*   Updated: 2019/06/12 13:42:58 by samkhize         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Update notes from github  */
-
-/* Thw strncmp() function lexicographically compare the null-terminated strings
+/* The strncmp() function lexicographically compare the null-terminated strings
  * s1 and s2.
  *
  * The strncmp() function compares not more than n characters. Because strncmp()
@@ -27,6 +25,8 @@
  * to, or less than 0, according as the string s1 is greater than, equal to, or
  * less than the string s2. The comparison is done using unsigned characters,
  * so that '\200' is greater than '\0'.  */
+
+/*  */
 
 
 

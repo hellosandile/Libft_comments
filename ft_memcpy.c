@@ -6,7 +6,7 @@
 /*   By: samkhize <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/01 11:21:03 by samkhize          #+#    #+#             */
-/*   Updated: 2019/06/01 11:46:04 by samkhize         ###   ########.fr       */
+/*   Updated: 2019/06/12 09:12:05 by samkhize         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,11 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	i = 0;
 	d = (char *)dst; 
 	s = (char *)src;
+	/*At the beginning of the funciton we have to protect the src & dst because if
+	 * they both don't have values then we must return NULL. If you don't protect it
+	 * the program will crash as position does not exist yet*/
+	if (src == NULL && dst == NULL)
+		return NULL.
 	while (i < n)
 	{
 		d[i] = s[i];
