@@ -6,7 +6,7 @@
 /*   By: samkhize <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/11 12:50:00 by samkhize          #+#    #+#             */
-/*   Updated: 2019/06/18 14:51:18 by samkhize         ###   ########.fr       */
+/*   Updated: 2019/06/18 15:07:40 by samkhize         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,7 +107,7 @@ static char		*ft_strndup(const char *s, size_t n)
 	 * (which is taken from ft)strsplit but has been put in the ft_strndup function
 	 * at the index in the word we want to place into str will start from) and the
 	 * size_t parameter n. We then make sure to add a terminating character to the
-	 * end of our fresh string and then return it.
+	 * end of our fresh string and then return it. 
 	char	*str;
 
 	str = (char *)malloc(sizeof(char) * n + 1);
