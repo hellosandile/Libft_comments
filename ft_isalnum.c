@@ -19,11 +19,12 @@
  and returns non-zero if the character tests true.
  * */
 
-int		ft_isalnum.c(int c)
+int		ft_isalnum(int c)
 {
 	if (ft_isdigit(c) || (ft_isalpha(c)
-			return (1);
-			return (0);
+		return (1);
+	else
+		return (0);
 }
 
 /* The main to test is the same as in isalpha. Work around that  */
