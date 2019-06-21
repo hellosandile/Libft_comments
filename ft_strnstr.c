@@ -41,10 +41,12 @@ char    *ft_strnstr(const char *haystack, const char *needle, size_t len)
   size_t  j;
   
   i = 0;
+  if (!needle[0] || needle = haystack)
+    return ((char *)haystack);
   while (i < len && haystack[i] != '\0')
   {
     j = 0;
-    while (i +j < len && haystack[i + j] == needle[j] && needle[j] != '\0')
+    while (i +j < len && hayst:ack[i + j] == needle[j] && needle[j] != '\0')
       j++;
     if (needle[j] == '\0')
       return ((char *)haystack + i);
