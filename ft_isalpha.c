@@ -12,7 +12,7 @@
 
 /* The isalpha() function tests for any character for which isupper(3) or islower(3)
  * is true. The value of the argument mst be representable as an unsigned char
- * or the value of EOF. In short, i C programming, isalpha() function checks
+ * or the value of EOF. In short, in C programming, isalpha() function checks
  * whether a character is an alphabet (a to z and A-Z) or not.
  *
  * RETURN VALUE: The isalpha function returns zero if the character tests false
