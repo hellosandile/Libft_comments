@@ -23,8 +23,6 @@
  *
  * RETURN VALUES: The memset() function returns its first argument  */
 
-#include <stdio.h>
-#include <string.h>
 
 void	*ft_memset(void *b, int c, size_t len)
 {

@@ -4,7 +4,7 @@ Otherwise, or if free(ptr) has already been called before, undefined behavior oc
 If ptr is NULL, no operation is performed
 
 This function (ft_memdel) takes in the parameter of the address of a pointer. The zone
-pointed to should be liberated with free. THe pointer is then set to NULL. */
+pointed to should be liberated with free. The pointer is then set to NULL. */
 
 void	ft_memdel(void **ap)
 {

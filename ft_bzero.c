@@ -14,9 +14,9 @@
  * the location pointed to by s, by writing zeros (bytes containing '\0' to that
  * area.
  *
- * RETURN VALUE: None.*/
+ * RETURN VALUE: None.
 
-/* According to the man this function writes len zeroed byted to the string s. If
+ * According to the man this function writes len zeroed byted to the string s. If
  * len is zero, ft_bzero does nothing. Another way of saying this is that we will
  * be making a string of size len and filling each index position with a 0. We use
  * our previously made ft_memset function to do this. Review ft_memset to understand

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* Checks whether character is a printable
+/* Checks for any printable character including space (ASCII 32)
  *
  * The isprint() function tests for any printing character, including space (' ').
  * The value of the argument must be representable as an unsigned char or the value EOF.
