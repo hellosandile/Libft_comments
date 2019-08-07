@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strclr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: samkhize <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/08/07 10:56:32 by samkhize          #+#    #+#             */
+/*   Updated: 2019/08/07 10:56:47 by samkhize         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 /* >This function assigns the value '\0' to all the characters in a chain that
 is passed to it's parameter. This sounds similar to the ft_bzero function but
 we ae changing the value of existing characters to '\0' to clear the existing

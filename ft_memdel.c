@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memdel.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: samkhize <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/08/07 09:27:57 by samkhize          #+#    #+#             */
+/*   Updated: 2019/08/07 09:28:04 by samkhize         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 /* The free() function frees the memory space pointer to by ptr, which
 must have been returned by a previous call to malloc(), calloc(), or realloc().
 Otherwise, or if free(ptr) has already been called before, undefined behavior occurs.
