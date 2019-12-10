@@ -12,11 +12,10 @@
 
 #include "libft.h"
 
-/*This function will display the string s on the standard output followed by a
- * new line. We do this by using our ft_putstr and ft_putchar functions that we
- * previously made. We use our ft_putstr on our string s to display it on the
- * standard output. Then we use our ft_putchar to have our string followed by
- * a new line*/
+/*This function takes in a string named s in this case, and will display the
+ *string s on the standard output followed by a new line ('\n'). We do this by
+ *calling out ft_putstr function previously made.
+*/
 
 void	ft_putendl(char const *s)
 {
